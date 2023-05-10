@@ -16,4 +16,27 @@ protocol GreetingViewModelProtocol: AnyObject {
     init(person: Person)
     func showGreeting()
     }
+
+// MARK: ViewModel
+// why we won't use extension i don't know
+class GreetingViewModel: GreetingViewModelProtocol {
+    var greeting: String {
+        didSet {
+            greetingDidChange?(self)
+        }
+    }
+    
+    var greetingDidChange: ((GreetingViewModelProtocol) -> Void)?
+    
+    private let person: Person
+    
+    required init(person: Person) {
+        self.person = person
+    }
+    
+    func showGreeting() {
+        greeting = "Hello, \(person.name) \(person.surname)"
+    }
+    
 }
+    
