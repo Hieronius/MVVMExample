@@ -14,6 +14,7 @@
 		DD4519E72A0BE9AA002795F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4519E62A0BE9AA002795F6 /* Assets.xcassets */; };
 		DD4519EA2A0BE9AA002795F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4519E82A0BE9AA002795F6 /* LaunchScreen.storyboard */; };
 		DD4519F22A0BEA2A002795F6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4519F12A0BEA2A002795F6 /* Model.swift */; };
+		DD4519F42A0BEA65002795F6 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4519F32A0BEA65002795F6 /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DD4519E92A0BE9AA002795F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4519EB2A0BE9AA002795F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4519F12A0BEA2A002795F6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD4519F32A0BEA65002795F6 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DD4519DF2A0BE9A8002795F6 /* SceneDelegate.swift */,
 				DD4519E12A0BE9A8002795F6 /* GreetingViewController.swift */,
 				DD4519F12A0BEA2A002795F6 /* Model.swift */,
+				DD4519F32A0BEA65002795F6 /* GreetingViewModel.swift */,
 				DD4519E32A0BE9A8002795F6 /* Main.storyboard */,
 				DD4519E62A0BE9AA002795F6 /* Assets.xcassets */,
 				DD4519E82A0BE9AA002795F6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4519F42A0BEA65002795F6 /* GreetingViewModel.swift in Sources */,
 				DD4519E22A0BE9A8002795F6 /* GreetingViewController.swift in Sources */,
 				DD4519DE2A0BE9A8002795F6 /* AppDelegate.swift in Sources */,
 				DD4519E02A0BE9A8002795F6 /* SceneDelegate.swift in Sources */,
